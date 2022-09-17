@@ -211,7 +211,7 @@ button.standard-button {
 }
 
 button.standard-button:hover {
-    background-color: white;
+    background-color: rgb(255, 7, 7);
     box-shadow: #fff8 0 0 10px;
 }
 

@@ -9,9 +9,10 @@ const darkerTheme = document.querySelector('.darker-theme');
 
 
 // Event Listeners
-savelocal("XYN");
-savelocal("Jake");
-savelocal("Sam");
+localStorage.clear()
+savelocal("Finish 15210 skyline lab");
+savelocal("Finish 15213 Malloc lab");
+savelocal("Finish 15440 Distributed Bitcoin Miner");
 toDoList.addEventListener('click', deletecheck);
 document.addEventListener("DOMContentLoaded", getTodos);
 standardTheme.addEventListener('click', () => changeTheme('standard'));
@@ -84,7 +85,7 @@ function deletecheck(event){
         // removeLocalTodos(item.parentElement);
         //item.parentElement.classList.add("thumbsup")
         console.log(item)
-        item.style.visibility = 'hidden';
+        item.style.visibility = 'red';
         item.parentElement.addEventListener('transitionend', function(){
             // item.parentElement.remove();
         })

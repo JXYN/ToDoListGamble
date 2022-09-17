@@ -231,6 +231,16 @@ button.darker-button {
 button.darker-button:hover {
     background-color: #001f29;
 }
+button.standard-button:focus {
+    background-color: yellow;
+    box-shadow: #fff8 0 0 10px;
+}button.darker-button:focus {
+    background-color: yellow;
+    box-shadow: #fff8 0 0 10px;
+}button.light-button:focus {
+    background-color: yellow;
+    box-shadow: #fff8 0 0 10px;
+}
 
 form button {
     padding: 10px;
